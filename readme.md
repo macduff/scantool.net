@@ -1,12 +1,9 @@
-*********************************************************************
+******
          ScanTool.net OBD-II Software v1.13 for ElmScan
          Copyright (C) 2006 ScanTool.net LLC, All Rights Reserved
-*********************************************************************
+******
 
-======================================
-============= Disclaimer =============
-======================================
-
+= Disclaimer 
 This program is free software; you can redistribute it and/or modify it under
 the terms of the GNU General Public License as published by the Free Software
 Foundation; either version 2 of the License, or (at your option) any later
@@ -15,10 +12,7 @@ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
 or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for
 more details.
 
-======================================
-============ Introduction ============
-======================================
-
+= Introduction
 ScanTool.net OBD-II Software for ElmScan is free software that allows you to 
 use your computer and an inexpensive hardware interface to read information 
 from your car's computer. Current version allows you to read trouble codes and 
@@ -29,10 +23,7 @@ Coolant Temperature, and Timing Advance.
 For more information about the ElmScan OBD-II interface, please visit 
 our website, located at http://www.ScanTool.net.
 
-======================================
-===== Minimum System Requirements ====
-======================================
-
+= Minimum System Requirements
 Windows:
    - 486DX 25Mhz Processor or better
    - 4Mb RAM
@@ -48,17 +39,11 @@ DOS:
    - 640x480 display
    - Serial port
 
-======================================
-=========== Troubleshooting ==========
-======================================
-
+= Troubleshooting
 If you are having problems running the software, please visit our 
 Support Page located at http://www.scantool.net/support
 
-======================================
-=========== Version History ==========
-======================================
-
+= Version History
    v1.13  -  Fixed some formatting, precision, and conversion errors in sensor formulas
           -  Fixed inconsistent refresh rate display in Sensor Data
           -  Refined handling of number of DTCs reported being different from number of DTCs read
