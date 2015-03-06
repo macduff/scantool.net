@@ -44,18 +44,18 @@ If you are having problems running the software, please visit our
 Support Page located at http://www.scantool.net/support
 
 # Version History
-   v1.13  -  Fixed some formatting, precision, and conversion errors in sensor formulas
-          -  Fixed inconsistent refresh rate display in Sensor Data
-          -  Refined handling of number of DTCs reported being different from number of DTCs read
-          -  Small bug fixes
-   v1.12  -  Refined error descriptions for ELM327
+   - **v1.13**  -  Fixed some formatting, precision, and conversion errors in sensor formulas
+            -  Fixed inconsistent refresh rate display in Sensor Data
+            -  Refined handling of number of DTCs reported being different from number of DTCs read
+            -  Small bug fixes
+   - **v1.12**  -  Refined error descriptions for ELM327
              CAN DTC responses are now handled properly
              SAE-defined DTCs with no description are now not identified as manufacturer-defined
              Expanded Clear Codes warning to describe all things that will be cleared
              Misc. bug fixes
-   v1.11  -  Fixed a bug in Display Codes dialog, where the program would crash under some conditions
+   - **v1.11**  -  Fixed a bug in Display Codes dialog, where the program would crash under some conditions
              Refined "COM Port Could not be Open" error handling
-   v1.10  -  Added baud rate switching
+   - **v1.10**  -  Added baud rate switching
              Made compatible with ELM327
              Added protocol detection to reset interface dialog
              Added pending DTCs
@@ -64,26 +64,26 @@ Support Page located at http://www.scantool.net/support
              Cleaned up Main Menu
              Updated About dialog
              Misc. bug/cosmetic fixes
-   v1.09  -  Fixed erroneous interpretation of 7F responses (KWP2000)
+   - **v1.09**  -  Fixed erroneous interpretation of 7F responses (KWP2000)
              Fixed number of codes reporting in Trouble Codes
              Fixed possible incorrect DTC interpretation when more than one response is received
-   v1.08  -  Fixed problem with ECUs that pad the response with 0's
-   v1.07  -  Added the rest of the sensors defined in SAE J1979 (APR2002)
+   - **v1.08**  -  Fixed problem with ECUs that pad the response with 0's
+   - **v1.07**  -  Added the rest of the sensors defined in SAE J1979 (APR2002)
              Added the rest of "designed to comply with" to Sensor Data
              Cleaned up portions of the code
              Added COM ports 5-8 to Options
              Updated codes.dat with latest generic P and U codes, and removed B and C codes
              System information dialog supports a wider range of processors and platforms
-   v1.06  -  Fixed some problems with RS232
+   - **v1.06**  -  Fixed some problems with RS232
              Corrected air flow rate formula (US system)
              Added 16 new sensors
              Modified the layout of "Sensor Data"
              Misc. bug fixes
-   v1.04  -  Updated serial library
+   - **v1.04**  -  Updated serial library
              Some bug fixes and enhancements
              Support for multiple platforms and compilers
-   v1.03  -  Fixed incorrect display of some sensors when ELM323 is used
-   v1.02  -  Minor bug fixes
-   v1.01  -  Minor bug fixes
-   v1.00  -  Initial release
+   - **v1.03**  -  Fixed incorrect display of some sensors when ELM323 is used
+   - **v1.02**  -  Minor bug fixes
+   - **v1.01**  -  Minor bug fixes
+   - **v1.00**  -  Initial release
 
